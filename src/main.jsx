@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
 import './index.css'
+import './App.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import { UserList } from './features/UserList/UserList.jsx'
 import { userListLoader } from './features/UserList/userListLoader.js'
@@ -9,7 +9,7 @@ import { UserProfile } from './features/UserProfile/UserProfile.jsx'
 import { userProfileLoader } from './features/UserProfile/userProfileLoader.js'
 import { UserProfileEdit } from './features/UserProfile/UserProfileEdit.jsx'
 import { userEditAction } from './features/UserProfile/userEditAction.js'
-import { UserProfileAdd } from './features/UserProfile/userProfileAdd.jsx'
+import { UserProfileAdd } from './features/UserProfile/UserProfileAdd.jsx'
 import { userAddAction } from './features/UserProfile/userAddAction.js'
 
 
